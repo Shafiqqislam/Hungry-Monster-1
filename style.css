@@ -1,0 +1,36 @@
+#mealItems{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin:0 auto;
+    /* background-color:#2D2013; */
+    padding: 20px;
+}
+.meals{
+    margin: 0 auto;
+}
+.mealName{
+    font-size: 22px;
+    text-align: center;
+    color: blueviolet;
+}
+#mealItems img{
+    width: 300px;
+}
+#header{
+align-items: center;
+font-size: 32px;
+display: none;
+}
+#show-details img{
+width: 400px;
+}
+#show-details{
+    justify-content: center;
+}
+#show-details ul li i{
+color: tomato;
+}
+#show-details ul li{
+    list-style: none;
+    }
