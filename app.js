@@ -18,10 +18,12 @@ document.getElementById('search_button').addEventListener('click', function () {
                 document.getElementById("header").style.display = "block";
                 document.getElementById("header").style.textAlign = "center";
                 document.getElementById('search_meal').value = "";
-
+                
             });
-        })
-})
+       
+            });
+        });
+      
 
 
 const displaysingleDetails = name => {
@@ -34,7 +36,7 @@ const displaysingleDetails = name => {
             singleDiv.innerHTML = `
              <img src ="${singleInfo.strMealThumb}">
              <h1>${singleInfo.strMeal}</h1>
-             <h4>Ingredients: </h4>
+             <h4>Ingredients:</h4>
              <ul>
                <li><i class="fas fa-check-square"></i>${singleInfo.strIngredient1}</li>
                <li><i class="fas fa-check-square"></i>${singleInfo.strIngredient2}</li>
@@ -48,6 +50,7 @@ const displaysingleDetails = name => {
                <li><i class="fas fa-check-square"></i>${singleInfo.strIngredient10}</li>
              </ul>
             `
-        })
-}
+        });
+    };
 
+       
