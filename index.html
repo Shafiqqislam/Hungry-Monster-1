@@ -13,20 +13,18 @@
 
      <div class="container">
         <form class="col-md-6 m-auto py-5">
+            <h2 id="header">Welcome to TheMealDB</h2>
             <div class="input-group mb-3">
-                <input type="text" id="search_meal" class="form-control" placeholder="Search for a meal...">
+                <input type="text" id="search_meal" class="form-control" placeholder="Search for a meals...">
                 <div class="input-group-append">
-                    <button type="button" class="btn btn-danger" id="search_button">Search</button>
+                    <button onclick="searchMeals()" type="button" class="btn btn-success search-btn" id="search_button">Search</button>
                 </div>
             </div>
         </form>
      </div>
 
-<div id="show-details"> </div>
+<div id="show-details" class="col-md-4 mx-auto py-2" > </div>
 
-     <div class="heading">
-        <h2 id="header">Welcome to TheMealDB</h2>
-     </div>
     
          <div id="mealItems"> </div>
        
